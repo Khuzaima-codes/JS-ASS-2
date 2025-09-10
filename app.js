@@ -10,7 +10,8 @@
 // var userGender = prompt("Enter your gender");
 // if (userGender === "male") {
 //   alert("Good morning sir");
-// } else {
+// }
+// if(userGender === "female") {
 //   alert("Good morning Ma'am");
 // }
 
@@ -18,9 +19,11 @@
 // var signalColor = prompt("Enter color of road traffic signal");
 // if (signalColor === "red") {
 //   alert("Must stop");
-// } else if(signalColor === "yellow") {
+// }
+// if(signalColor === "yellow") {
 //   alert("ready to move");
-// } else{
+// }
+// if(signalColor === "green"){
 //   alert("move now");
 // }
 
@@ -96,10 +99,12 @@
 // if (percentage >= 80){
 //   grade = "A-one";
 //   remarks = "Excellent";
-// }else if (percentage >= 70){
+// }
+// if (percentage >= 70){
 //   grade = "A";
 //   remarks = "good";
-// }else if (percentage >= 60){
+// }
+// if (percentage >= 60){
 //   grade = "B";
 //   remarks = "you need to improve";
 // }else{
@@ -108,32 +113,29 @@
 // }
 // document.write("<h2>Marks Sheet</h2> <br><br> <p>Total Marks : ", total_marks, "</p> <p>Marks obtained : ", obtained_marks, "</p> <p>percentage : ", percentage, "%</p><p>Grade : ", grade, "</p><p>Remarks : ", remarks, "</p> <br>");
 
-
 // Q7
 // var secretNumber = 7;
 // var guessNumber = +prompt("guess the Secret number");
 // a & b)
 // if (guessNumber === secretNumber) {
 //   alert("Bingo! Correct answer");
-// }else if (guessNumber + 1 === secretNumber){
+// }
+// if (guessNumber + 1 === secretNumber){
 //   alert("Close enough to the correct answer");
-// }else{
-//   alert("wrong answer");
 // }
 
 // Q8
 // var no = 8;
 // if (no % 3 == 0) {
 //   alert("the number is divisible by 3");
-// }else{
-//   alert("the number isn't divisible by 3");
 // }
 
 // Q9
 // var checkNo = +prompt("Enter a number");
 // if (checkNo % 2 === 0) {
 //   alert("the number is even");
-// }else{
+// }
+// if{
 //   alert("the number is odd");
 // }
 
@@ -141,11 +143,14 @@
 // var t = +prompt("enter a temprature");
 // if (t > 40) {
 //   alert("It is too hot outside.")
-// } else if (t > 30) {
+// }
+// if (t > 30) {
 //   alert("The Weather today is Normal.")
-// }else if (t > 20) {
+// }
+// if (t > 20) {
 //   alert("Today’s Weather is cool.")
-// }else if (t > 10) {
+// }
+// if (t > 10) {
 //   alert("OMG! Today’s weather is so Cool.")
 // }
 
@@ -156,12 +161,70 @@
 
 // if (operation == "+") {
 //   document.write(firstNo, " ", operation, " ", secondNo, " = ", firstNo + secondNo, "<br>");
-// }else if (operation == "-") {
+// }
+//  if (operation == "-") {
 //   document.write(firstNo, " ", operation, " ", secondNo, " = ", firstNo - secondNo, "<br>");
-// }else if (operation == "*") {
+// }
+//  if (operation == "*") {
 //   document.write(firstNo, " ", operation, " ", secondNo, " = ", firstNo * secondNo, "<br>");
-// }else if (operation == "/") {
+// }
+//  if (operation == "/") {
 //   document.write(firstNo, " ", operation, " ", secondNo, " = ", firstNo / secondNo, "<br>");
-// }else if (operation == "%") {
+// }
+//  if (operation == "%") {
 //   document.write(firstNo, " ", operation, " ", secondNo, " = ", firstNo - secondNo, "<br>");
+// }
+
+// Chapter 12-13
+
+// Q1
+
+// Q2
+
+// Q3
+// var npNo = +prompt("enter negative or positive number");
+// if (npNo >= 0) {
+//   alert("the number is positive");
+// }else{
+//   alert("the number is negative");
+// }
+
+// Q5
+// a)
+// var password = 12345;
+
+// b)
+// var enterPass = prompt("enter your password");
+
+// c-i & ii)
+// if (enterPass == "") {
+//   alert("please enter your password");
+//   var enterPass = prompt("enter your password");
+// }else if (enterPass == password){
+//   alert("correct");
+// }else{
+//   alert("Incorrect password");
+// }
+
+// Q6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//   greeting = "Good day";
+// } else {
+//   greeting = "Good evening";
+// }
+// alert(greeting);
+
+// Q7
+// var time = +prompt("Enter time with  24 hours clock format like: 1900 = 7pm");
+
+// if (time >= "0000" && time < "1200") {
+//   alert("good morning")
+// } else if (time >= 1200 && time < 1700) {
+//   alert("good afternoon");
+// }else if (time >= 1700 && time < 2100) {
+//   alert("good evening");
+// }else if (time >= 2100 && time < 2359) {
+//   alert("good night");
 // }
